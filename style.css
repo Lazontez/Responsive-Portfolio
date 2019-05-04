@@ -1,0 +1,218 @@
+
+body{
+    
+    margin: 0px;
+    /* background-image:url(assets/images/memphis-mini-dark.png); */
+    background-color: rgb(63, 59, 5, 0.329);
+}
+
+    
+
+
+header {
+    border-bottom: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom-style: solid;
+    border-bottom-color: #777777; 
+    
+     
+}
+
+h1{
+    /* position: relative;
+    left: 15%;
+    bottom:15%; */
+    display: inline;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px 5px 21px 5px;
+}
+
+
+#aboutTopLink {
+position: absolute;
+    left: 70%;
+    top: 5%;
+    font-family: "Ariel", 'Helvitica Neue',Helvetica,sans-serif;
+    display: inline;
+    color: #777777
+}
+
+#portfolioTopLink{
+    position: absolute;
+    left: 75%;
+    top: 5%;
+    font-family: "Ariel", 'Helvitica Neue',Helvetica,sans-serif;
+    color: #777777
+
+}
+
+#contactTopLink{
+    font-family: "Ariel", 'Helvitica Neue',Helvetica,sans-serif;
+    position: absolute;
+    left: 81%;
+    top:5%;
+    color: #777777;
+   
+}
+
+h2{
+    font-family: Georgia,Times, 'Times New Roman', serif;
+    /* position: absolute; */
+    /* left:16%;
+    top:20%; */
+    z-index: 1;
+    color: #4aaaa5;
+   
+}
+
+p{  
+    font-family: "Ariel", 'Helvitica Neue',Helvetica,sans-serif;
+    font-size: 15px;
+    /* position: absolute; */
+    /* left:36%;
+    top:30%; */
+    /* text-align: left; */
+    word-spacing: 1px;
+    color: #777777
+    
+}
+
+img{
+    float: left;
+    /* left:16%;
+    top:30%; */
+   
+}
+
+
+.topLink{
+    border-left-style: none;
+    border-right-style:none;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    background-color: white;
+    z-index: 2px;
+}
+
+#mainBio{
+    background-color:#F1F1F1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 215px;
+    width: 550px;
+    padding: 100px 200px;
+    display: inline-block;
+    
+    
+
+}
+footer{
+   
+    border-top: 5px;
+    border-top-color: #4aaaa5;
+    color: whitesmoke;
+    background-color: #777777;
+    border-top-style: solid;
+    padding: 10px;
+    /* background-color: #F1F1F1; */
+    position: sticky;
+    /* color: #777777; */
+    
+}
+
+ul:hover {
+background-color: yellow;
+display: inline;
+
+}
+
+/* #Message{
+     position: absolute; 
+    left: 30%;
+    top: 75.5% 
+
+}
+#email{
+     position: absolute; 
+     left: 30%;
+    top:63.5%; 
+
+}
+#fullName{
+    left: 30%;
+    top:50.5%; 
+} */
+
+ input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical  
+   } 
+
+ input[type=email], select, textarea{
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical  
+ } 
+
+#mainContact{
+    background-color:#F1F1F1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 215px;
+    width: 550px;
+    padding: 100px 200px;
+    display: inline-block;
+    
+}
+
+#contact{
+    margin-left: -150px;
+    margin-top: -50px;
+}
+
+#portPhotos{
+    background-color:#F1F1F1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 215px;
+    width: 550px;
+    padding: 50px 100px;
+     display: inline-block;
+}
+
+#first, #third, #fifth{ 
+    margin-right: 50px;
+}
+#first, #second, #third, #fourth, #fifth{
+    margin-bottom: 50px;
+    width: 200px;
+    float: left;
+}
+/* #portfolio{
+    z-index:1;
+    margin-left: 210px;
+    margin-bottom:-20px; 
+} */
+
+#about{
+margin-left: -150px;
+margin-top: -50px;  
+}
+
+@media screen and (max-device-width:640px){
+    h1{text-align: center;
+    }
+}   
